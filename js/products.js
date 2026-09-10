@@ -21,7 +21,7 @@ const PRODUCTS = [
     category: "Cocina",
     price: 8500,
     description: "Vasos de vidrio templado, 300 ml, aptos lavavajillas.",
-    image: null
+    image: "assets/products/set-vasos.webp"
   },
   {
     id: "juego-ollas",
