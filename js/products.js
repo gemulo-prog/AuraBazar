@@ -19,7 +19,7 @@ const PRODUCTS = [
     id: "set-vasos-vidrio",
     name: "Set de vasos de vidrio x6",
     category: "Cocina",
-    price: 8500,
+    price: 9000,
     description: "Vasos de vidrio templado, 300 ml, aptos lavavajillas.",
     image: "assets/products/set-vasos.webp"
   },
