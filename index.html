@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AuraBazar</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top">Aura<span>Bazar</span></a>
+      <nav class="cat-nav" id="cat-nav" aria-label="Categorías"></nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <p class="eyebrow">Catálogo</p>
+      <h1>Artículos de bazar para tu casa</h1>
+      <p class="hero-copy">Estos productos son de <strong>ejemplo</strong> para probar el sitio. Reemplazalos por los tuyos apenas tengas las fotos — el <code>README.md</code> explica cómo.</p>
+      <div class="search-row">
+        <input type="search" id="search" placeholder="Buscar un producto..." aria-label="Buscar producto" />
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div id="empty-state" class="empty-state" hidden>
+        <p>No encontramos productos que coincidan con tu búsqueda.</p>
+      </div>
+      <div class="grid" id="product-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>AuraBazar — catálogo de ejemplo. Los precios y productos que ves son de muestra.</p>
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
