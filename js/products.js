@@ -27,7 +27,7 @@ const PRODUCTS = [
     id: "juego-ollas",
     name: "Juego de ollas antiadherentes x3",
     category: "Cocina",
-    price: 42000,
+    price: 27000,
     description: "Ollas de 16, 20 y 24 cm con tapa de vidrio.",
     image: null
   },
